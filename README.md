@@ -27,5 +27,17 @@ Iniciar o emulador:
 emulator -avd <nome_do_avd>
 ```
 
+Listar devices para testes com Android:
+
+```bash
+adb devices -l
+```
+
+Instalar apk para testes:
+
+```
+adb install app-release.apk
+```
+
 Documentação:
 - [React Native - Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment)
