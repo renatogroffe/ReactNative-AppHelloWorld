@@ -1,2 +1,31 @@
 # ReactNative-AppHelloWorld
 App mobile criado com React Native para testes de automação de build.
+
+## Comandos utilizados
+
+Criação do projeto:
+
+```bash
+npx react-native@latest init AppGroffe
+```
+
+Executar o projeto:
+
+```bash
+npm run android
+```
+
+Listar os emuladores disponíveis:
+
+```bash
+emulator -list-avds
+```
+
+Iniciar o emulador:
+
+```bash
+emulator -avd <nome_do_avd>
+```
+
+Documentação:
+- [React Native - Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment)
